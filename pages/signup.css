@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #39289f;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 150px;
+    color: white;
+    position: relative;
+    z-index: 3;
+    /* Increased to ensure it stays above .joystick */
+}
+
+.navbar {
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+}
+
+.contact-us {
+    background-color: #fa9021;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li button {
+    color: white;
+    background-color: #FA9021;
+}
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+    margin-bottom: 30vh;
+    margin-left: 15vw;
+}
+.hero-section-content{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-section-content span p{
+    display: inline;
+    color: white;
+    font-size: 12px;
+    
+}
+.hero-section-content h1{
+    font-size :30px; 
+    margin: 30px 0;
+    font-weight: 700;
+    color: white;
+    width: 425px;
+}
+.hero-section-content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    width: 414px;
+    margin-bottom: 100px;
+}
+
+.hero-section-content button{
+    background-color: #fa9021;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    height: 48px;
+    color: white    ;
+    
+}
+.work-with-us{
+    color: white;
+    margin-left: 15vw;  
+}
+.work-with-us h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.work-with-us-card-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+.work-with-us-card{
+    height: 348px;
+    width: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1C140F;
+    border-radius: 20px;
+}
+.work-with-us-card h4{
+    height: 39px;
+    width: 140px;
+    background-color: #B000DC1C;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+.work-with-us-card h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.work-with-us-card p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 25px;
+    width: 304px;
+}
