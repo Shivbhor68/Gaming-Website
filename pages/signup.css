@@ -143,3 +143,213 @@ body {
     margin-left: 25px;
     width: 304px;
 }
+
+.black-div{
+
+    background-color: #1C140F;
+    height: 603px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.black-div-img{
+   margin-left: 150px;
+    align-self: flex-end;
+}
+.black-div-content{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.black-div-content h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.black-div-content h3 {
+    font-size: 28px;
+    width: 531px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.black-div-content p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 536px;
+}
+.our-team{
+    margin-top: 150px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.our-team h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.our-team-card-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+
+}
+.our-team-card{
+    background-color: #1C140F;
+    width: 260px;
+    height: 253px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.our-team-card h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+
+}
+.our-team-card p{
+    color: #E8E8E8;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.subscribe {
+    display: flex;
+    margin-left: 155px;
+    margin-top: 80px;
+    margin-right: 100px;
+    background-color: #1C140F;
+    height: 189px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 150px;
+    justify-content: space-evenly;
+
+
+}
+
+.subscribe-content {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.subscribe-content h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+.subscribe-content p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 535px;
+
+}
+
+.subscribe-input-field {
+    background-color: white;
+    margin-top: 20px;
+    width: 385px;
+    height: 48px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.subscribe-input-field input {
+    font-size: 13px;
+    font-weight: 300;
+    color: #898989;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+}
+
+.subscribe-input-field button {
+    background-color: #fa9021;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-left: 75px;
+}
+
+.footer {
+    height: 376px;
+    background-color: #070707;
+}
+
+.footer-card-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 41vh;
+    border-bottom: 1px solid white;
+}
+
+.footer-card {
+    color: white;
+    height: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+
+}
+
+.footer-card h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 372px;
+}
+
+.footer-card h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.footer-card ul {
+    list-style: none;
+}
+
+#width {
+    width: 282px;
+}
+
+.footer-card-logo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-self: end;
+}
+
+#footerp {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}

@@ -80,6 +80,8 @@ body {
     width: 175px;
     height: 53px;
     border-radius: 10px;
+    border: none;
+    color: white;
 }
 
 
@@ -158,6 +160,7 @@ body {
 .Games-card div{
     display: flex;
     align-items: center;
+    margin-top: 20px;
     
 }
 .Games-card p{
@@ -344,12 +347,13 @@ body {
     display: flex;
     margin-left: 155px;
     margin-top: 80px;
-    margin-right: 148px;
+    margin-right: 100px;
     background-color: #1C140F;
     height: 189px;
     border-radius: 10px;
     align-items: center; 
     margin-bottom: 150px;
+    justify-content: space-evenly;
     
 
 }
@@ -370,7 +374,7 @@ body {
     font-size: 17px;
     font-weight: 400;
     margin-top: 20px;
-    width: 636px;
+    width: 535px;
 
 }
 .subscribe-input-field{
@@ -379,6 +383,7 @@ body {
     width: 385px;
     height: 48px;
     display: flex;
+    border-radius: 10px;
     align-items: center;
 }
 .subscribe-input-field input{
