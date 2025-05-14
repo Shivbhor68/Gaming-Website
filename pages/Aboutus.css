@@ -57,7 +57,7 @@ body {
     justify-content: space-between;
     margin-top: 20vh;
     margin-bottom: 30vh;
-    margin-left: 15vw;
+    margin-left: 150px;
 }
 .hero-section-content{
     display: flex;
@@ -97,7 +97,7 @@ body {
 }
 .work-with-us{
     color: white;
-    margin-left: 15vw;  
+    margin-left: 150px;  
 }
 .work-with-us h1{
     font-size: 25px;
