@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #39289f;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 150px;
+    color: white;
+    position: relative;
+    z-index: 3;
+    /* Increased to ensure it stays above .joystick */
+}
+
+.navbar {
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+}
+
+.contact-us {
+    background-color: #fa9021;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li button {
+    color: white;
+    background-color: #FA9021;
+}
+
+.hero-section {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section span p {
+    display: inline;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.hero-section h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.hero-section p {
+
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero-section div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 400px;
+    height: 39px;
+    background-color: #1C140F;
+    border-radius: 5px;
+    align-items: center;
+}
+.hero-section div img{
+    margin-left: 12px;
+}
+.hero-section div input{
+    background-color: #1C140F;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+    border: none;
+    margin-left: 15px;
+}
+
+
+
+.vertical-div{
+    display: flex;
+    margin-left: 155px;
+    margin-right: 80px;
+    
+    background-color: #1C140F;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width:587px;
+
+}
+.left-card{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.left-card span{margin-top: 20px;
+
+}
+.left-card span button{
+    height:48px ;
+    width: 164px;
+    background-color: #2351F5;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.left-card span p{
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.left-card h1{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.left-card p{
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    width: 529px;
+}
+.hor-line{
+    padding-bottom: 100px;
+    border-bottom:2px solid #A5A5A5 ;
+    margin-bottom: 150px;
+}
