@@ -52,7 +52,7 @@ body {
     background-color: #FA9021;
 }
 
-.hero-section{
+.hero-section {
     color: white;
     margin-top: 100px;
     display: flex;
@@ -60,6 +60,7 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
 .hero-section span p {
     display: inline;
     color: white;
@@ -67,237 +68,160 @@ body {
     font-weight: 400;
 
 }
-.hero-section h1{
+
+.hero-section h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 33px;
     font-weight: 600;
 }
-.hero-section p{
-   
+
+.hero-section p {
+
     font-size: 16px;
     font-weight: 500;
 }
-
-.hero-section-card-container{
-    margin-top: 80px;
-    width: 1140px;
-    height: 200px;
-    background-color: #1C140F;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
+.hero-section img{
+    margin-top: 50px;
 }
-
-.hero-section-card{
-    width: 380px;
-    
-    height: 140px;
-    border-right:2px solid white;
+.contactus-div{
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
+   margin-top: 100px;
+    margin-left: 155px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
 }
-.hero-section-card div{
+.contactus-div-card-1{
+   
     display: flex;
     flex-direction: column;
-    justify-content:center ;
-    align-items: center;
+   justify-content: center;
+    
 }
-.hero-section-card div h1{
-    font-size: 25px;
-    font-weight: 700;
-    margin: 0;
-}
-.hero-section-card div p{
-    font-size: 20px;
+.contactus-div-card-1 p{
+    font-size: 14px;
     font-weight: 400;
-}
-
-
-.video-section{
-    margin-top: 150px;
+    margin-left: 15px;
     color: white;
-    display: flex;
-    justify-content:center;
-    gap: 150px;
-}
-.video-section div h1{
-    width: 384px;
-    font-size: 30px;
-    font-weight: 700;
+   
     margin-bottom: 30px;
-}
-.video-section div p {
-    width: 327px;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-.video-section div span {
-    display: flex;
-    justify-content: start;
-    gap: 5px;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-
-.game-card-rect{
     
-    margin-left: 154px;
-    margin-right: 110px;
-    margin-top: 150px;
-    display: flex;
-    justify-content: space-between;
 }
-.game-card-rect div{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.game-card-rect div h1{
-    font-size: 30px;
-    font-weight: 500;
-    width: 472px;
-}
-
-.game-card-rect div p {
-    font-size: 17px;
-    font-weight: 400;
-    width: 536px;
-    margin-top: 30px;
-}
-.game-card-rect div button{
-    margin-top: 30px;
-    width: 177px;
+.contactus-div-card-1 img{
     height: 50px;
-    background-color: #DC7000;
-    border: none;
-    color: white;
+    width: 50px;
 }
-.black-div{
-    margin-top: 150px;
-    height: 738px;
-    background-color: #1C140F;
+.contactus-div-card-2{
     display: flex;
-    flex-direction: column;
     align-items: center;
-
 }
-.black-div h1{
-    color: white;
-    width: 447px;
-    margin-top: 80px;
-    text-align: center;
-}
-.black-div p {
-    color: white;
-    width: 555px;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400
+.contactus-div-card-2 span{
+    display: flex;
+        justify-content: center;
+        align-items: center
     ;
 }
-.black-div-card-container{
-    margin-top: 50px;
-    display: flex;
-    margin-left: 120px;
-    justify-content: center;
-        gap: 20px;      
-}
-.black-div-card{
-    
-    width: 400px;
-    height: 230px;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-.black-div-card p{
-    font-size: 14px;
-    font-weight: 400;
-    width: 340px;
-    text-align: start;
-    margin-left: 20px;
-}
-.card-info{
-    width: 400px;
-    display: flex;
-    justify-content: space-between;
-}
-.card-profile{
-    margin-top: 20px;
-    margin-left:20px;
-    display: flex;
-    
+
+.boder-line{
+    height: 102px;
+    width: 1px;
+    border-left: 1px solid white ;
 
 }
-.card-profile img{
-    width: 50px;
-    height: 50px;
-}
-.card-info div span h3{
-    width: 118px;
-    font-size: 18px;
-    font-weight: 500;
+
+.contactus-div-card-2 span p{
+    display: inline;
+    font-size: 20px;
+    width: 325px;
+    font-weight: 300;
     color: white;
 }
-.card-info div span{
+.contactus-div-card-2 span img{
+    margin-right: 10px;
+}
+
+.user-form{
     display: flex;
+    height: 110vh;
+    background-color: #1C140F;
     flex-direction: column;
-    justify-content: start;
-    margin-left: 8px;
-}
-.card-info div span  p {
-    width: 101px;
-    font-size: 11px;
-    height: 14px;
-    font-weight: 400;
-    color: #4F5665;
-    margin: 0;
-}
-.card-rating{
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    margin: 0;
+
 }
-.card-rating img{
-    width: 16px;
-    height: 16px;
-    margin-top: 5px;
-    margin-left: 5px;
+.user-form-inner{
+    display: flex;
+    flex-direction: column;
+    
 }
-.card-rating p {
-    margin: 0;
-    font-size: 16px;
+.user-form h1{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
     font-weight: 400;
-    width: 24px;
-    height: 16px;
 }
+.user-form-p{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 50px;
+    
+}
+.user-form p {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
-
-.black-div-last{
-    width: 75vw;
-    margin-top: 10vh;
-    height: 10vh;
-   
+}
+.user-form-inner div{
+    display: flex;
+    
+    gap: 20px;
+}
+.user-form-inner p {
+   color: #4F4F4F;
+   font-size: 14px;
+   font-weight: 500;
+}
+.user-form-inner div{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-.black-div-last img{
-    height: 15px;
-    width: 135px;
+.user-form-inner div input{
+    
+    width: 322px;
+    height: 56px;
+    border: 1px solid #CECECE;
+    border-radius: 8px;
+    background-color: #4f4f4f52;
 }
-.black-div-last span img {
-    height: 60px;
-    width: 60px;
+.user-form-inner-input{
+    height: 56px;
+    width: 671px;
+    border: 1px solid #CECECE;
+        border-radius: 8px;
+        background-color: #4f4f4f52;
+}
+.user-form-inner span textarea{
+    height: 260px;
+    border: 1px solid #CECECE;
+        border-radius: 8px;
+        background-color: #4f4f4f52;
+    width: 671px;
+}
+.user-form-inner button{
+    width:193px ;
+    height: 57px;
+    color: white;
+    background-color: #DC7000;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin: 50px 0;
+    border: none;
 }
 
 .Lorem-Ipsum {
@@ -325,16 +249,18 @@ body {
     width: 545px;
 
 }
+
+
 .subscribe {
     display: flex;
     margin-left: 155px;
-    
+    margin-top: 80px;
     margin-right: 100px;
     background-color: #1C140F;
     height: 189px;
     border-radius: 10px;
     align-items: center;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
     justify-content: space-evenly;
 
 
